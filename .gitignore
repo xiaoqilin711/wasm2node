@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+# never commit site material (real .wasm, trace dumps, signatures)
+*.wasm
+!test/fixtures/*.wasm
+!test/fixtures/*.js

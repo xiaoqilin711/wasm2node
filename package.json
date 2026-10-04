@@ -1,0 +1,25 @@
+{
+  "name": "wasm2node",
+  "version": "1.0.0",
+  "description": "Generate a Node.js environment-patching harness from a wasm-bindgen WebAssembly module, without reading a line of the original algorithm.",
+  "type": "commonjs",
+  "bin": {
+    "wasm2node": "bin/wasm2node.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "wasm",
+    "wasm-bindgen",
+    "reverse-engineering",
+    "node",
+    "signature",
+    "environment-patching",
+    "anti-bot"
+  ],
+  "license": "MIT"
+}
